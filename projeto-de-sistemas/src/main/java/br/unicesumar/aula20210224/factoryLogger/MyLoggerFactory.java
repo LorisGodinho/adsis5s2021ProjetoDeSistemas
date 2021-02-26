@@ -3,7 +3,11 @@ package br.unicesumar.aula20210224.factoryLogger;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class MyLoggerFactory {
+public final class MyLoggerFactory {
+
+    private MyLoggerFactory() {
+        super();
+    }
 
 /*
 	public static MyLogger createInstance() {
