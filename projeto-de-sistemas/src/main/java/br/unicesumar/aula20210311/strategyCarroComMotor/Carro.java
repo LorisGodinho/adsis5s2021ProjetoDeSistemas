@@ -1,4 +1,4 @@
-package br.unicesumar.aula202103311.strategyCarroComMotor;
+package br.unicesumar.aula20210311.strategyCarroComMotor;
 
 public class Carro {
     private double ganhoDeVelocidadePorSegundoPorCavalo  = 0.0975;
